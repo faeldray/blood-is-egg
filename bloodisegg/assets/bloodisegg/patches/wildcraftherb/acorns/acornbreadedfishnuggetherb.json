@@ -1,0 +1,20 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/0/ingredients/0/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedfishnuggetherb.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/1/ingredients/0/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedfishnuggetherb.json"
+	}
+]

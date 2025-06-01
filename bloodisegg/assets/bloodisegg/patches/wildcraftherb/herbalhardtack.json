@@ -1,0 +1,23 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/attributes/expandedNutritionProps",
+		"value": {
+			"butchering:bloodportion": {
+				"saturation": 20,
+				"foodcategory": "Protein"
+			}
+		},
+		"side": "server",
+		"file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/herbalhardtack.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/3/ingredients/3/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/wildcraftherb/herbalhardtack.json"
+	}
+]

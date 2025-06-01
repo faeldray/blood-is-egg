@@ -1,0 +1,110 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/0/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/1/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/2/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/3/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/4/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/5/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/6/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/7/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/8/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/9/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/10/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/11/ingredients/2/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/doughball.json"
+	}
+]

@@ -1,0 +1,11 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/1/ingredients/3/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/wildcraftfruit/hardtack.json"
+	}
+]

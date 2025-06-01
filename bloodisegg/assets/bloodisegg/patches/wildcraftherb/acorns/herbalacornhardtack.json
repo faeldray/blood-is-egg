@@ -1,0 +1,11 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/2/ingredients/4/inputs/-",
+		"value": {
+			type: "item", code: "butchering:bloodportion", quantity: 10
+		},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/wildcraftherb/acorns/herbalacornhardtack.json"
+	}
+]

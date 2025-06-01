@@ -1,0 +1,14 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/attributes/expandedNutritionProps",
+		"value": {
+			"butchering:bloodportion": {
+				"saturation": 20,
+				"foodcategory": "Protein"
+			}
+		},
+		"side": "server",
+		"file": "expandedfoods:itemtypes/food/mixing/muffin.json"
+	}
+]
