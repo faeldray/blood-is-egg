@@ -9,7 +9,7 @@
 			}
 		},
 		"side": "server",
-		"file": "expandedfoods:itemtypes/food/mixing/breadedball.json"
+		"file": "expandedfoods:itemtypes/food/mixing/pasta.json"
 	},
 	{
 		"op": "addmerge",

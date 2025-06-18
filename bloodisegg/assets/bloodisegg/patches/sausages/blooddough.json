@@ -1,0 +1,24 @@
+[
+	{
+		"op": "add",
+		"path": "/0/enabled",
+		"value": false,
+		"file": "sausages:recipes/kneading/blooddough.json",
+		"side":"server",
+		"dependsOn": [ { "modid": "sausages" }, {"modid": "epxandedbloodbread"} ]
+	},
+	{
+		"op": "replace",
+		"path": "/0/output/stackSize",
+		"value": 2,
+		"file": "sausages:recipes/kneading/blooddough.json",
+		"dependsOn": [ { "modid": "sausages" } ]
+	},
+	{
+		"op": "addmerge",
+		"path": "/0/ingredients/2",
+		"value": {"inputs": [{ "type": "item", "code": "game:flour-*", "allowedVariants": [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ], "name": "type", "quantity": 1 }]},
+		"file": "sausages:recipes/kneading/blooddough.json",
+		"dependsOn": [ { "modid": "sausages" } ]
+	}
+]

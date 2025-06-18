@@ -1,0 +1,16 @@
+[
+	{
+		"op": "replace",
+		"path": "/0/output/stackSize",
+		"value": 2,
+		"file": "expandedbloodbread:recipes/kneading/blooddough.json",
+		"dependsOn": [ { "modid": "epxandedbloodbread" } ]
+	},
+	{
+		"op": "addmerge",
+		"path": "/0/ingredients/2",
+		"value": {"inputs": [{ "type": "item", "code": "game:flour-*", "allowedVariants": [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ], "name": "type", "quantity": 1 }]},
+		"file": "expandedbloodbread:recipes/kneading/blooddough.json",
+		"dependsOn": [ { "modid": "epxandedbloodbread" } ]
+	}
+]
