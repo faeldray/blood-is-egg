@@ -1,23 +1,25 @@
 [
 	{
 		"op": "addmerge",
-		"path": "/attributes/expandedNutritionProps",
+		"path": "/0/ingredients/1/inputs/-",
 		"value": {
-			"butchering:bloodportion": {
-				"saturation": 20,
-				"foodcategory": "Protein"
-			}
+			"type": "item", "code": "butchering:bloodportion", "quantity": 10
 		},
 		"side": "server",
-		"file": "expandedfoods:itemtypes/food/mixing/pasta.json"
+		"file": "expandedfoods:recipes/kneading/pasta.json"
 	},
 	{
 		"op": "addmerge",
-		"path": "/0/ingredients/1/inputs/-",
-		"value": {
-			type: "item", code: "butchering:bloodportion", quantity: 10
-		},
+		"path": "/0/ingredients/-",
+		"value": {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
 		"side": "server",
+		"file": "expandedfoods:recipes/kneading/pasta.json"
+	},
+	{
+		"op": "replace",
+		"path": "/0/output/stackSize",
+		"value": 2,
+		"side":"server",
 		"file": "expandedfoods:recipes/kneading/pasta.json"
 	}
 ]

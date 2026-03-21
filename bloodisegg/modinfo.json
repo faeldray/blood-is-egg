@@ -1,14 +1,15 @@
 {
-  "type": "content",
-  "modid": "bloodisegg",
-  "name": "Blood is Egg",
-  "side": "universal",
-  "requiredOnClient": true,
-  "requiredOnServer": true,
-  "description" : "Blood from Butchering can be used as an egg substitute in various Expanded Foods recipes",
-  "authors": ["Faeldray"],
-  "version": "2.0.0",
-  "dependencies": { 
-		"butchering": "*"
-  }
+	"type": "content",
+	"modid": "bloodisegg",
+	"name": "Blood is Egg",
+	"side": "universal",
+	"requiredOnClient": true,
+	"requiredOnServer": true,
+	"description" : "Blood from Butchering can be used as an egg substitute in various Expanded Foods recipes",
+	"authors": ["Faeldray"],
+	"version": "2.1.0",
+	"dependencies": { 
+		"butchering": "*",
+		"expandedfoods": "*"
+	}
 }

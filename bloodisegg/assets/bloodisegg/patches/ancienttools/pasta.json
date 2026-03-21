@@ -3,7 +3,7 @@
 		"op": "addmerge",
 		"path": "/0/ingredients/1/inputs/-",
 		"value": {
-			type: "item", code: "butchering:bloodportion", quantity: 10
+			"type": "item", "code": "butchering:bloodportion", "quantity": 10
 		},
 		"side": "server",
 		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
@@ -12,7 +12,7 @@
 		"op": "addmerge",
 		"path": "/1/ingredients/1/inputs/-",
 		"value": {
-			type: "item", code: "butchering:bloodportion", quantity: 10
+			"type": "item", "code": "butchering:bloodportion", "quantity": 10
 		},
 		"side": "server",
 		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
@@ -21,9 +21,51 @@
 		"op": "addmerge",
 		"path": "/2/ingredients/1/inputs/-",
 		"value": {
-			type: "item", code: "butchering:bloodportion", quantity: 10
+			"type": "item", "code": "butchering:bloodportion", "quantity": 10
 		},
 		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/0/ingredients/-",
+		"value": {"inputs": [{ "type": "item", "code": "ancienttools:barkflour-birch", "quantity": 4 }]},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/1/ingredients/-",
+		"value": {"inputs": [{ "type": "item", "code": "ancienttools:barkflour-pine", "quantity": 4 }]},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/2/ingredients/-",
+		"value": {"inputs": [{ "type": "item", "code": "ancienttools:barkflour-maple", "quantity": 4 }]},
+		"side": "server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
+	},
+	{
+		"op": "replace",
+		"path": "/0/output/stackSize",
+		"value": 2,
+		"side":"server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
+	},
+	{
+		"op": "replace",
+		"path": "/1/output/stackSize",
+		"value": 2,
+		"side":"server",
+		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
+	},
+	{
+		"op": "replace",
+		"path": "/2/output/stackSize",
+		"value": 2,
+		"side":"server",
 		"file": "expandedfoods:recipes/kneading/ancienttools/pasta.json"
 	}
 ]

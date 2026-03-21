@@ -4,7 +4,7 @@
 		"path": "/attributes/expandedNutritionProps",
 		"value": {
 			"butchering:bloodportion": {
-				"saturation": 20,
+				"saturation": 2,
 				"foodcategory": "Protein"
 			}
 		},
@@ -15,7 +15,7 @@
 		"op": "addmerge",
 		"path": "/0/ingredients/2/inputs/-",
 		"value": {
-			type: "item", code: "butchering:bloodportion", quantity: 10
+			"type": "item", "code": "butchering:bloodportion", "quantity": 10
 		},
 		"side": "server",
 		"file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json"
@@ -24,7 +24,7 @@
 		"op": "addmerge",
 		"path": "/1/ingredients/3/inputs/-",
 		"value": {
-			type: "item", code: "butchering:bloodportion", quantity: 10
+			"type": "item", "code": "butchering:bloodportion", "quantity": 10
 		},
 		"side": "server",
 		"file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json"
@@ -33,7 +33,7 @@
 		"op": "addmerge",
 		"path": "/2/ingredients/2/inputs/-",
 		"value": {
-			type: "item", code: "butchering:bloodportion", quantity: 10
+			"type": "item", "code": "butchering:bloodportion", "quantity": 10
 		},
 		"side": "server",
 		"file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json"
