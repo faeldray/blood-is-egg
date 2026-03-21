@@ -9,7 +9,7 @@
 	"authors": ["Faeldray"],
 	"version": "2.1.0",
 	"dependencies": { 
-		"butchering": "*",
-		"expandedfoods": "*"
+		"butchering": "1.10.12",
+		"expandedfoods": "2.0.0-dev.1"
 	}
 }
