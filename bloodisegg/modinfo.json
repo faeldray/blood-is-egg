@@ -7,9 +7,9 @@
 	"requiredOnServer": true,
 	"description" : "Blood from Butchering can be used as an egg substitute in various Expanded Foods recipes",
 	"authors": ["Faeldray"],
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"dependencies": { 
 		"butchering": "1.10.12",
-		"expandedfoods": "2.0.0-dev.1"
+		"expandedfoods": "2.0.0-dev.15"
 	}
 }
